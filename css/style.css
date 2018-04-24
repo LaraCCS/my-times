@@ -25,15 +25,95 @@ a {
   color: black;
 }
 
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+header p {
+  color: mediumaquamarine;
+  font-family: Verdana;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding-left: 20px;
+  text-align: left;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
 .logo {
   display: flex;
   flex-grow: 1;
   align-items: center;
   padding-left: 40px;
-  padding-bottom: 10px;
-  color: mediumaquamarine;
 }
 
 .logo img {
   margin-right: 10px;
+}
+
+main {
+  position: relative;
+  top: 120px;
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.sub-stories {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: Georgia;
+  padding: 0 10px;
+}
+
+.mother {
+  background-image: url(../images/img-story-main.png);
+}
+
+.earth {
+  background-image: url(../images/img-story-2.png);
+}
+
+.research {
+  background-image: url(../images/img-story-3.png);
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
